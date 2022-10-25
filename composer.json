@@ -1,0 +1,25 @@
+{
+    "name": "richardgomer/2213scripts",
+    "description": "Scripts to help with COMP2213 admin",
+    "type": "project",
+    "require": {
+        "vanilla/garden-cli": "^3.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Richardgomer\\2213scripts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dr Richard Gomer",
+            "email": "r.gomer@soton.ac.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "COMP2213\\": "src/"
+        }
+    }
+}
